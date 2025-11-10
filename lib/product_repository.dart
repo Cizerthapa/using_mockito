@@ -1,4 +1,3 @@
-// lib/product_repository.dart
 import 'api_service.dart';
 
 class ProductRepository {

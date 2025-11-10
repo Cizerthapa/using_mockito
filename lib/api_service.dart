@@ -13,7 +13,7 @@ class ApiService {
 
     if (response.statusCode == 200) {
       final data = jsonDecode(response.body);
-      return data['products']; // List of products
+      return data['products'];
     } else {
       throw Exception('Failed to load products');
     }
